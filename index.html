@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Steam</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div>
+        <img
+          class="logo"
+          src="https://store.cloudflare.steamstatic.com/public/shared/images/responsive/header_logo.png"
+          alt="STEAM"
+        />
+      </div>
+      <nav class="navbar">
+        <li>Home</li>
+        <li>Trending</li>
+        <li>About Us</li>
+      </nav>
+    </div>
+    <div class="main">
+      <div class="sidebar">
+        <div class="searchbar">
+        <input
+          id="search-query"
+          name="search-query"
+          type="text"
+          placeholder="search"
+          class="searchbar-input"
+        />
+        <ion-icon id="search-icon" name="search-outline"></ion-icon>
+        </div>
+        <div class="genres"></div>
+      </div>
+      <div class="games"></div>
+  </body>
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>
